@@ -58,7 +58,7 @@ nav>ul>li>a{
   text-decoration: none;
   display: block;
 }
-nav>ul>li>a:hover{
+nav>ul>li>a:hover,#font:hover{
   background-color: #dbdcdc;
 }
 nav>ul>li>a>span:first-child{
@@ -68,6 +68,41 @@ nav>ul>li>a>span:first-child{
 nav>ul>li>a>span:last-child{
   font-weight: bold;
   color: #8a8000;
+}
+#font:hover .nav_menu{
+  display: block;
+}
+#font>span:first-child{
+  font-weight: bold;
+  color: black;
+}
+#font>span:nth-child(2){
+  font-weight: bold;
+  color: #8a8000;
+}
+.nav_menu{
+  position: absolute;
+  width: 100%;
+  display: none;
+  a{
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: #8A8000;
+    text-decoration: none;
+    text-align: left;
+    color: #ffffff;
+    font-size: 18px;
+    &:hover{
+      background-color: black;
+    }
+    span{
+      font-size: 18px;
+    }
+  }
 }
 .index img{
   width: 100%;
