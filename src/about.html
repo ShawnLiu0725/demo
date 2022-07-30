@@ -19,41 +19,29 @@
         </header>
         @@include('include/nav.html')
         <div class="index">
-           <div></div>
-           <div>
-                <img src="img/logo_img.png" style="width: 290px;height:129px" alt="">
-                <p>
-                    <span>我們出版美麗又好玩的遊戲!</span><br>
-                    <span>We publish beautiful and extraordinary games! 
-                        <br> Wir bringen tolle und schöne Spiele heraus!
-                    </span>
-                </p>
-                <p>
-                    <span>BGG頁面</span><br>
-                    <span>BoardGameGeek Page</span>
-                </p>
-                <p>
-                    <span>歡迎聯絡我們Contact:</span><br>
-                    <span>dasholzspiele@gmail.com</span>
-                </p>
+            <div class="aboutdiv1"></div>
+            <div id="aboutbottom">
+                <div class="aboutword;" id="aboutleft" style="padding-left: 70px;padding-top: 30px;padding-bottom: 30px;">
+                    <img src="img/logo_img.png" style="width: 290px;height:129px;margin-bottom: 22px;" alt="">
+                    <div class="aboutword1">
+                        <span>我們出版美麗又好玩的遊戲!</span><br>
+                        <span>We publish beautiful and extraordinary games! 
+                            <br> Wir bringen tolle und schöne Spiele heraus!
+                        </span>
+                    </div>
+                    <div class="aboutword2">
+                        <span>B&thinsp;G&thinsp;G&thinsp;頁面</span><br>
+                        <span>BoardGameGeek Page</span>
+                    </div>
+                    <div class="aboutword3">
+                        <span>歡迎聯絡我們Contact:</span><br>
+                        <span>dasholzspiele@gmail.com</span>
+                    </div>
+                </div>
+                <div class="aboutdiv2" id="aboutright" style="margin: 30px;"></div>
             </div>
-           <div></div>
         </div>
     </div>
-    <footer style="margin-top: 0px;">
-        <div id="footerall" style="padding-top: 25px;">
-            <div id="footerleft">
-                <ul>
-                    <li><a href="https://www.facebook.com/dasholzspiele" target="_blank">Facebook</a></li>
-                    <li><a href="https://twitter.com/dasholzspiele" target="_blank">Twitter</a></li>
-                    <li><a href="https://www.instagram.com/thewoodgames/" target="_blank">Instagram</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div id="footerright">
-                <span>&copy; 2017 此木創遊 The Wood Games</span>
-            </div>
-        </div>
-    </footer>
+    @@include('include/footer.html')  
 </body>
 </html>

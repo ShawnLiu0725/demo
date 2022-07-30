@@ -1,3 +1,5 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
 html {
     box-sizing: border-box;
   }
@@ -319,6 +321,65 @@ footer{
 }
 .shop .item3 .right .product a:hover{
   background-color: black;
+}
+.aboutdiv1{
+  width: 850px;
+  height: 300px;
+  margin-left: 40px;
+  background-color: #8A8000;
+}
+.aboutdiv2{
+  background-color: black;
+}
+#aboutbottom{
+  display: flex;
+}
+#aboutleft{
+  flex-basis: 60%;
+}
+#aboutright{
+  flex-basis: 40%;
+}
+.aboutword{
+  display: flex;
+  flex-direction: column;
+}
+.aboutword1{
+ flex-basis: 33.3%;
+ padding-bottom: 20px;
+}
+.aboutword1>span:first-child{
+  font-size: 18px;
+  font-weight: bold;
+}
+.aboutword1>span:last-child{
+  font-size: 16px;
+  font-weight: bold;
+}
+.aboutword2{
+  flex-basis: 33.3%;
+  padding-bottom: 20px;
+}
+.aboutword2>span:first-child{
+  font-size: 18px;
+  font-weight: bold;
+}
+.aboutword2>span:last-child{
+  font-size: 16px;
+  font-weight: bold;
+  color: #8A8000;
+}
+.aboutword3{
+  flex-basis: 33.3%;
+}
+.aboutword3>span:first-child{
+  font-size: 18px;
+  font-weight: bold;
+}
+.aboutword3>span:last-child{
+  font-size: 16px;
+  font-weight: bold;
+  color: #8A8000;
 }
 /*小於992px會執行的css */
 @media (max-width:990px){
